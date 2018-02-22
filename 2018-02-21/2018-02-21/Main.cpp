@@ -1,12 +1,14 @@
 #include <iostream>
 #include <string>
-#include "Car.h"
-
 using namespace std;
 
-int main() {
-	cout << "Hello World" << endl;
+int encode(string str, int key);
 
-	Car a = Car();
-	cout << a.color << endl;
+int main() {
+	encode("scout",1939);
+	encode("masterpiece", 1939);
+}
+
+int encode(string str, int key) {
+	return 0;
 }
