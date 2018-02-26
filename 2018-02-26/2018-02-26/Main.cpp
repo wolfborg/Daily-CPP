@@ -1,6 +1,7 @@
 #include <iostream>
-using namespace std;
+#include <GL/glew.h>
 
-int main() {
-	cout << "Hello World" << endl;
+int main(int argc, char** argv) {
+	std::cout << "Hello World" << std::endl;
+	return 0;
 }
